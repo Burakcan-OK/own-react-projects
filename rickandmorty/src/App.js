@@ -19,7 +19,7 @@ export default function App() {
         results={results}
         setResults={setResults}
       />
-      <Multi results={results} /> 
+      <Multi results={results} /> *
     </div>
   );
 }
