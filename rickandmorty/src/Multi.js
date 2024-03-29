@@ -78,7 +78,9 @@ function Multi() {
                   />
                   {character.label}
                   <br />
-                  {`${character.episode} episode`}
+                  {character.episode>1 ?
+                  (`${character.episode} Episodes`):
+                  (`${character.episode} Episode`)}
                 </div>
               ))}
             </div>
